@@ -46,3 +46,9 @@
 .reward-coin{background:linear-gradient(140deg,#fff4ce,#e4ac52,#8d5618);box-shadow:0 15px 65px #d9a14e66}
 
 .rv-brand-image{width:44px;height:44px;object-fit:cover;display:inline-block;vertical-align:middle;border-radius:10px;border:1px solid #87602b;box-shadow:0 2px 17px #dba34d30;flex-shrink:0}.rv-logo .rv-brand-image{width:44px;height:44px}.auth-header .rv-brand-image{width:46px;height:46px;margin-right:9px}.auth-header .brand{display:flex;align-items:center;gap:4px}
+
+/* Transparent logo presentation */
+.rv-brand-image,.rv-logo .rv-brand-image,.auth-header .rv-brand-image{border:0;border-radius:0;box-shadow:none;background:transparent;object-fit:contain;filter:drop-shadow(0 3px 10px #e4aa4d55)}
+.rv-logo .rv-brand-image{width:64px;height:64px;margin:-9px -6px -9px -8px}
+.auth-header .rv-brand-image{width:72px;height:72px;margin:-14px 2px -14px -12px}
+@media(max-width:760px){.rv-logo .rv-brand-image{width:54px;height:54px}.auth-header .rv-brand-image{width:58px;height:58px}}
