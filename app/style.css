@@ -52,3 +52,5 @@
 .rv-logo .rv-brand-image{width:64px;height:64px;margin:-9px -6px -9px -8px}
 .auth-header .rv-brand-image{width:72px;height:72px;margin:-14px 2px -14px -12px}
 @media(max-width:760px){.rv-logo .rv-brand-image{width:54px;height:54px}.auth-header .rv-brand-image{width:58px;height:58px}}
+
+.rv-survey-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:10px}.rv-survey-open{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;padding:12px 18px;background:linear-gradient(110deg,#ffe3a0,#d6a14b);color:#211405;font-weight:800;text-decoration:none}.rv-survey-frame>.muted{padding:0 0 14px;line-height:1.6}.rv-survey-frame iframe{min-height:620px}
