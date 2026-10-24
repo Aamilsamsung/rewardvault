@@ -1,1 +1,1 @@
-import "./style.css";export const metadata={title:"RewardVault",description:"Your rewards platform"};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
+import "./style.css";export const metadata = {icons: {icon: "/rewardvault-logo.svg", shortcut: "/rewardvault-logo.svg", apple: "/rewardvault-logo.svg"},title:"RewardVault",description:"Your rewards platform"};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
