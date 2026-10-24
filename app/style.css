@@ -8,3 +8,39 @@
 @media(max-width:1050px){.rv-sidebar{width:210px}.rv-hero{padding:30px}.rv-hero-visual{transform:scale(.8)}.rv-stats,.rv-offer-grid{gap:10px}.rv-stat,.rv-offer{padding:17px}}@media(max-width:760px){.rv-app{display:block}.rv-sidebar{height:auto;width:100%;position:relative;padding:15px 16px 10px;border-right:0;border-bottom:1px solid #303044}.rv-logo{padding:0 0 13px;font-size:20px}.rv-logo-icon{height:33px;width:33px}.rv-menu-label,.rv-sidebar-bottom{display:none}.rv-side-nav{display:flex;overflow-x:auto;gap:5px}.rv-side-nav button{white-space:nowrap;width:auto;font-size:11px;padding:10px}.rv-side-nav button span{font-size:15px;width:auto}.rv-side-nav button i{display:none}.rv-main{padding:23px 16px}.rv-topbar h1{font-size:24px}.rv-profile-text{display:none}.rv-avatar{width:36px;height:36px}.rv-hero{min-height:280px;padding:27px}.rv-hero-visual{display:none}.rv-hero h2{font-size:40px}.rv-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.rv-stats .rv-stat:last-child{grid-column:1/-1}.rv-offer-grid{grid-template-columns:1fr}.rv-stat strong{font-size:28px}.rv-footer{display:block;line-height:2}.rv-page-intro h2{font-size:30px}}@media(max-width:380px){.rv-stats{grid-template-columns:1fr}.rv-stats .rv-stat:last-child{grid-column:auto}}
 
 .rv-survey-frame{margin-top:22px;background:#fff;border-radius:18px;overflow:hidden;min-height:900px}.rv-survey-frame iframe{display:block;width:100%;min-height:900px;border:0}.rv-wallet-banner h2{font-size:clamp(24px,3vw,35px);margin:16px 0}
+
+/* RewardVault premium black and gold identity */
+:root{color-scheme:dark}
+.rv-app{background:#090909;color:#fff9ec}
+.rv-sidebar{background:#0e0c0b;border-right-color:#3b3021}
+.rv-main{background:radial-gradient(ellipse at 90% 0%,#33241140,transparent 45%),#090909}
+.rv-logo b,.rv-overline,.rv-menu-label{color:#e7ba69}
+.rv-logo-icon{background:linear-gradient(145deg,#fff0bc,#d89b3b 60%,#885013);color:#221305;box-shadow:0 3px 20px #dca45155}
+.rv-side-nav button.current{background:linear-gradient(100deg,#49341d,#231b13);color:#ffe5aa;border:1px solid #78572d}
+.rv-side-nav button{color:#b2a69b}
+.rv-side-nav button:hover{background:#2b2118;color:#ffe6b3}
+.rv-status-dot{background:#e8bf6c}
+.rv-avatar{background:#49341d;border-color:#b48b4c;color:#ffe2a1}
+.rv-hero{background:radial-gradient(circle at 81% 47%,#a96d285e,transparent 35%),linear-gradient(110deg,#332313,#0f0d0b 77%);border-color:#795528;box-shadow:0 18px 70px #0007}
+.rv-hero h2 em,.rv-eyebrow{color:#f4c978}
+.rv-hero p{color:#c9bba8}
+.rv-hero button,.rv-redeem{background:linear-gradient(120deg,#ffe3a0,#d6a14b);color:#211405;border:1px solid #ffdfa1;font-weight:800;box-shadow:0 7px 24px #dca64d2c}
+.rv-ring{border-color:#d7a55d7a}
+.rv-big-coin{background:linear-gradient(145deg,#fff4d3,#f4bf5f 45%,#935613);border-color:#ffdf99;box-shadow:0 20px 65px #ddab4670,inset 0 -12px 24px #7e4b15}
+.rv-float-label{background:#261b0e;border-color:#98703d}
+.rv-stat,.rv-offer,.rv-history{background:#141210;border-color:#3a2c1d}
+.rv-stat-icon.purple,.rv-stat-icon.blue,.rv-stat-icon.green,.rv-history-icon{background:#3b2b17;color:#f1c574}
+.rv-stat>span,.rv-offer p,.rv-stat p,.rv-page-intro p{color:#b4a89a}
+.rv-offer-icon{background:radial-gradient(circle,#5e4121,#211a12)}
+.rv-offer-tag,.rv-offer-foot strong,.rv-text-button,.rv-page-intro h2 span{color:#f0c376}
+.rv-offer-foot{border-top-color:#3a2c1d}
+.rv-wallet-banner{background:linear-gradient(115deg,#493117,#14110d);border-color:#805d30}
+.rv-wallet-banner strong small{color:#ffdfa3}
+.rv-notice{background:#392a17;border-color:#a4773e;color:#ffdfae}
+.rv-footer{border-top-color:#3a2c1d}
+.auth-page{background:#090909}
+.auth-panel{border-color:#5a3f23;background:#15110d}
+.brand span,.auth-showcase h1 span,.panel-kicker{color:#e9b65f}
+.auth-tabs button.selected{color:#f2c878;border-bottom-color:#f2c878}
+.auth-form .submit-btn{background:linear-gradient(110deg,#ffe3a0,#d7a14a);color:#251506}
+.reward-coin{background:linear-gradient(140deg,#fff4ce,#e4ac52,#8d5618);box-shadow:0 15px 65px #d9a14e66}
