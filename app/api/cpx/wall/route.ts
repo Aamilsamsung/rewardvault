@@ -19,5 +19,6 @@ export async function GET(req:NextRequest){
  wall.searchParams.set("app_id",appId);
  wall.searchParams.set("ext_user_id",userId);
  wall.searchParams.set("secure_hash",hash);
+ wall.searchParams.set("output_method","iframe");
  return NextResponse.json({url:wall.toString()},{headers:{"Cache-Control":"no-store"}});
 }
