@@ -44,3 +44,5 @@
 .auth-tabs button.selected{color:#f2c878;border-bottom-color:#f2c878}
 .auth-form .submit-btn{background:linear-gradient(110deg,#ffe3a0,#d7a14a);color:#251506}
 .reward-coin{background:linear-gradient(140deg,#fff4ce,#e4ac52,#8d5618);box-shadow:0 15px 65px #d9a14e66}
+
+.rv-brand-image{width:44px;height:44px;object-fit:cover;display:inline-block;vertical-align:middle;border-radius:10px;border:1px solid #87602b;box-shadow:0 2px 17px #dba34d30;flex-shrink:0}.rv-logo .rv-brand-image{width:44px;height:44px}.auth-header .rv-brand-image{width:46px;height:46px;margin-right:9px}.auth-header .brand{display:flex;align-items:center;gap:4px}
